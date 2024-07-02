@@ -1,0 +1,16 @@
+/* Start of Hero section */
+.carousel img{
+    max-width: 800px;
+    max-height: 70vh;
+    margin-bottom: 7%;
+}
+/* End of Hero section */
+/* start of the about section */
+.About-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 300;
+    color: #1374e9;
+    margin-top: -6rem;
+}
