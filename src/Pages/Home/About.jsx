@@ -18,7 +18,7 @@ const About = () => {
             quaerat mollitia!
           </p>
         </div>
-        <div className="Topic1">
+        <div className="Topic2">
           <h1>02</h1>
           <h2>Mission</h2>
           <p>
@@ -36,7 +36,7 @@ const About = () => {
             quaerat mollitia!
           </p>
         </div>
-        <div className="Topic1">
+        <div className="Topic2">
           <h1>04</h1>
           <h2>Purpose</h2>
           <p>
