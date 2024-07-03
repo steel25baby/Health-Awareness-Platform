@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './Components/Header/Header'
+import Footer from './Components/Footer/Footer';
 import Home from './Pages/Home/Home';
 import Diseases from './Pages/Diseases/Diseases';
 import Treatment from './Pages/Treatment/Treatment';
@@ -23,6 +24,8 @@ function App() {
       <Route path='/services'element={<Services/>}/>
       <Route path='/contact'element={<Contact/>}/>
     </Routes>
+
+    <Footer/>
     </BrowserRouter>
      
     </>
