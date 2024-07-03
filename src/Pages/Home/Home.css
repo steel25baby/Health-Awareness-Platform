@@ -70,3 +70,58 @@
         flex-wrap: wrap;
     }
 }
+/* End of about section */
+
+/* start of sample services section */
+.Sample-services{
+    border: #424661 solid 2px;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.sample-services-heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #1374e9;
+}
+.Sample-card{
+    max-width: 20em;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    overflow: hidden;
+    gap: 1rem;
+    border: #1374e9 solid 2px;
+    padding: 1rem;
+}
+.sample-image{
+ width: 100%;
+ height: 40vh;
+ object-fit: cover;
+ overflow: hidden;
+}
+.sample-image img{
+    width: 100%;
+    height: 100%;
+}
+.sample-details h1{
+    text-align: center;
+    color: #1374e9;
+}
+.sample-details p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+.sample-details h4{
+    text-align: center;
+}
+
